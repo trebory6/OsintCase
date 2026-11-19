@@ -19,8 +19,8 @@ const EN = { ...EN_BASE, ...EN_EXTRA };
 
 const STORAGE_KEY = 'osint-tool:lang';
 export const LANGUAGES = [
-  { key: 'tr', label: 'Türkçe', short: 'TR' },
   { key: 'en', label: 'English', short: 'EN' },
+  { key: 'tr', label: 'Türkçe', short: 'TR' },
 ];
 
 function readLang() {
