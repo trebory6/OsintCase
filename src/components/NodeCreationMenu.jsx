@@ -113,8 +113,13 @@ export default function NodeCreationMenu({ position, onSelect, onClose }) {
         onMouseDown={(e) => e.stopPropagation()}
       >
         <input
-          type="text"
+          type="search"
           autoFocus
+          name="identifier-search"
+          autoComplete="off"
+          data-bwignore="true"
+          data-lpignore="true"
+          data-1p-ignore=""
           placeholder={t('Tanımlayıcı ekle…')}
           value={query}
           onChange={(e) => setQuery(e.target.value)}

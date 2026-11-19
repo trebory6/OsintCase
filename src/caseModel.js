@@ -73,6 +73,7 @@ export function admiraltyTone(source, info) {
 }
 
 export const SUBJECT_ROLES = [
+  { key: 'hedef', label: 'Hedef', color: '#d9772b' },
   { key: 'supheli', label: 'Şüpheli', color: '#d0493f' },
   { key: 'sanik', label: 'Sanık', color: '#b3261e' },
   { key: 'tanik', label: 'Tanık', color: '#2b8a9e' },
